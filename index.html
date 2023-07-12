@@ -55,7 +55,22 @@
       <section class="title">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="main-button">Order Service</button>
+          <button data-modal-open type="button" class="main-button">
+            Order Service
+          </button>
+          <div class="backdrop-is-hidden" data-modal>
+            <div class="modal">
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Officia dolor cupiditate id odio, odit vel cum. Ducimus suscipit
+                similique aut ex. Veniam quisquam in blanditiis pariatur,
+                commodi possimus ex explicabo facere iure a ipsam fugiat modi,
+                excepturi saepe cum natus ea obcaecati nostrum amet laudantium,
+                quasi architecto laboriosam tenetur incidunt!
+              </p>
+            </div>
+          </div>
+          <button data-modal-close>Close</button>
         </div>
       </section>
       <section class="features">
@@ -437,5 +452,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
