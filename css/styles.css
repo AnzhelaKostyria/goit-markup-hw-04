@@ -443,8 +443,11 @@ img {
 
 .container-footer {
   display: flex;
-  gap: 120px;
   align-items: baseline;
+}
+
+.logo-and-paragraf {
+  margin-right: 120px;
 }
 
 .footer-social-media {
